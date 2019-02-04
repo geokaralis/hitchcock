@@ -19,8 +19,8 @@ const createWindow = async () => {
     transparent: true,
     titleBarStyle: 'hidden',
     frame: false,
-    vibrancy: 'ultra-dark',
-    backgroundColor: '#80FFFFFF'
+    vibrancy: 'ultra-dark'
+    // backgroundColor: '#80FFFFFF'
   });
 
   // and load the index.html of the app.

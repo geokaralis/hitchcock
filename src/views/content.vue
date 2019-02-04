@@ -37,7 +37,7 @@
   </select>
 </label>
 
-<button class="top-button time" @click="click">
+<button class="top-button time">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="18px" height="18px">
     <path style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal" d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 24.984375 6.9863281 A 1.0001 1.0001 0 0 0 24 8 L 24 22.173828 A 3 3 0 0 0 22 25 A 3 3 0 0 0 22.294922 26.291016 L 16.292969 32.292969 A 1.0001 1.0001 0 1 0 17.707031 33.707031 L 23.708984 27.705078 A 3 3 0 0 0 25 28 A 3 3 0 0 0 28 25 A 3 3 0 0 0 26 22.175781 L 26 8 A 1.0001 1.0001 0 0 0 24.984375 6.9863281 z"  fill="#fff" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible"/>
 </svg>
@@ -54,9 +54,8 @@
     </div>
  
 
-    <div class="empty-state">
+    <!-- <div class="empty-state">
 <svg width="400px" height="240px" viewBox="0 0 400 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
     <title>Artboard</title>
     <desc>Created with Sketch.</desc>
     <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -80,15 +79,15 @@
         <path d="M135.245339,165.55988 L133.18054,166.452389 C132.673587,166.671518 132.084981,166.438192 131.865852,165.93124 C131.756409,165.678047 131.756409,165.390893 131.865852,165.137701 L132.75836,163.072901 L131.865852,161.008101 C131.646722,160.501149 131.880048,159.912543 132.387,159.693413 C132.640193,159.583971 132.927347,159.583971 133.18054,159.693413 L135.245339,160.585922 L137.310139,159.693413 C137.817092,159.474283 138.405697,159.707609 138.624827,160.214561 C138.73427,160.467754 138.73427,160.754908 138.624827,161.008101 L137.732318,163.072901 L138.624827,165.137701 C138.843957,165.644653 138.610631,166.233259 138.103679,166.452389 C137.850486,166.561831 137.563332,166.561831 137.310139,166.452389 L135.245339,165.55988 Z" id="Star-Copy-4" fill="#54545A" fill-rule="nonzero" transform="translate(135.072901, 163.072901) rotate(-45.000000) translate(-135.072901, -163.072901) "></path>
     </g>
 </svg>
-    </div>
+    </div> -->
 
 <div class="details">
   <button class="close-button" @click="close">Close</button>
 </div>
 
-    <!-- <div class="movies-container">
-      <div class="movie-item"></div>
-    </div> -->
+    <div class="movies-container">
+      <div class="movie-item" @click="click"></div>
+    </div>
     
   </div>
 </template>
